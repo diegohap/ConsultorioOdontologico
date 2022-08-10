@@ -1,0 +1,68 @@
+PACIENTES
+[
+    {
+        "apellido": "Gomez",
+        "nombre": "Juan",
+        "email": "sdlkgf@gmail.com",
+        "dni": 124,
+        "fechaIngreso": "2022-06-14",
+        "domicilio": {
+            "calle": "Colon",
+            "numero": 1248,
+            "localidad": "Cordoba",
+            "provincia": "Cordoba"
+        }
+    },
+    {
+        "apellido": "Perez",
+        "nombre": "Anibal",
+        "email": "hgfew@gmail.com",
+        "dni": 753,
+        "fechaIngreso": "2021-06-14",
+        "domicilio": {
+            "calle": "Maipu",
+            "numero": 349,
+            "localidad": "Cordoba",
+            "provincia": "Cordoba"
+        },
+    {
+        "apellido": "Garcia",
+        "nombre": "Juana",
+        "email": "sdlkgf@gmail.com",
+        "dni": 124,
+        "fechaIngreso": "2021-07-11",
+        "domicilio": {
+            "calle": "Espora",
+            "numero": 332,
+            "localidad": "Cordoba",
+            "provincia": "Cordoba"
+        }
+    }
+]
+
+ODONTOLOGOS
+[
+    {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Gomez",
+        "matricula": 9876
+    },
+    {
+        "id": 3,
+        "nombre": "Pepe",
+        "apellido": "Lepu",
+        "matricula": 546
+    }
+]
+
+TURNOS
+{
+    "odontologo": {
+        "id": 1
+    },
+    "paciente": {
+        "id": 1
+    },
+    "fecha": "2022-06-05"
+}
